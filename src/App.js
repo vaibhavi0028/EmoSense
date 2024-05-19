@@ -15,7 +15,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://vaibhavi0028.pythonanywhere.com/data');
+      const response = await axios.get('https://emosense-backend.vercel.app//data');
       setData(response.data);
       setConnected(true);
     } catch (error) {
@@ -37,7 +37,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post('http://vaibhavi0028.pythonanywhere.com/analyze', { text: inputText });
+      const response = await axios.post('https://emosense-backend.vercel.app//analyze', { text: inputText });
       setSentiment(response.data.sentiment);
       setConnected(true);
     } catch (error) {
