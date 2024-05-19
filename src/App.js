@@ -67,6 +67,13 @@ function App() {
 
   return (
     <div>
+      <nav className="nav">
+        <div className="cont">
+          <div className="navtxt">
+            <Typewriter text="EmoSense" />
+          </div>
+        </div>
+      </nav>
       <h1>Want to analyze your emotions?</h1>
      
       <form onSubmit={handleSubmit}>
@@ -99,5 +106,43 @@ function App() {
     </div>
   );
 }
+const Typewriter = ({ text }) => {
+  const [currentText, setCurrentText] = useState('');
+  const [direction, setDirection] = useState(1); 
+  const [isWaiting, setIsWaiting] = useState(false);
+
+  useEffect(() => {
+    let intervalId;
+
+    const typeWriter = () => {
+      intervalId = setInterval(() => {
+        setCurrentText((prevText) => {
+          const nextIndex = prevText.length + direction;
+          if (nextIndex === text.length || nextIndex === 0) {
+            if (prevText === text) {
+              clearInterval(intervalId);
+              setIsWaiting(true); 
+              setTimeout(() => {
+                setDirection(-direction); 
+                setIsWaiting(false); 
+              }, 3000);
+            } else {
+              setDirection(-direction); 
+            }
+          }
+          return text.slice(0, nextIndex);
+        });
+      }, 250); 
+    };
+
+    if (!isWaiting) { 
+      typeWriter();
+    }
+
+    return () => clearInterval(intervalId); 
+  }, [text, direction, isWaiting]);
+
+  return <>{currentText}</>;
+};
 
 export default App;
