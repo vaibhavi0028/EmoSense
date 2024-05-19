@@ -92,6 +92,6 @@ npm start
 
 ## :handshake: Contact
 
-Vaibhavi - [@LinkedIn](https://twitter.com/Vaibhavi028](https://www.linkedin.com/in/vaibhavi0028/) - vaibhavipandey2874@gmail.com
+Vaibhavi - [@LinkedIn]](https://www.linkedin.com/in/vaibhavi0028/) - vaibhavipandey2874@gmail.com
 
 Project Link: [https://github.com/vaibhavi0028/EmoSense](https://github.com/vaibhavi0028/EmoSense)
