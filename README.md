@@ -47,14 +47,6 @@
 - User-Friendly Interface: Simple and intuitive interface for ease of use.
 
 
-### :art: Color Reference
-| Color | Hex |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#121836](https://via.placeholder.com/10/121836?text=+) #121836 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
-
 ## :toolbox: Getting Started
 
 ### :gear: Installation
@@ -100,6 +92,6 @@ npm start
 
 ## :handshake: Contact
 
-Vaibhavi - [@twitter_handle](https://twitter.com/Vaibhavi028) - vaibhavipandey2874@gmail.com
+Vaibhavi - [@LinkedIn](https://twitter.com/Vaibhavi028](https://www.linkedin.com/in/vaibhavi0028/) - vaibhavipandey2874@gmail.com
 
 Project Link: [https://github.com/vaibhavi0028/EmoSense](https://github.com/vaibhavi0028/EmoSense)
