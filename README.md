@@ -6,7 +6,7 @@
 
 <h4> <a href=https://emosense-vaibhavi.vercel.app/>View Website</a> <span> · </span> <a href="https://github.com/vaibhavi0028/EmoSense/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/vaibhavi0028/EmoSense/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/vaibhavi0028/EmoSense/issues"> Request Feature </a> </h4>
 <br><br>
-<img src="https://i.postimg.cc/LXwJX2w3/Screenshot-2024-05-19-123103.png" alt="logo" style="max-width:100%; height:auto;" />
+<a href="https://emosense-vaibhavi.vercel.app/"><img src="https://i.postimg.cc/LXwJX2w3/Screenshot-2024-05-19-123103.png" alt="logo" style="max-width:100%; height:auto;" /></a>
 <br><br>
 </div>
 
@@ -14,10 +14,10 @@
 ## :star2: About the Project
 
 ### :camera: Screenshots
-<div align="center"> <a href="https://gemoo.com/tools/upload-video/share/650713128613507072?codeId=v67QmRY5a38YL&card=650713118077427712&origin=videolinkgenerator"><img src="https://i.postimg.cc/8P8Fgkh1/Screenshot-2024-05-19-123909.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://gemoo.com/tools/upload-video/share/650713128613507072?codeId=v67QmRY5a38YL&card=650713118077427712&origin=videolinkgenerator"><img src="https://i.postimg.cc/YCrCtvjw/Screenshot-2024-05-19-124046.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://gemoo.com/tools/upload-video/share/650713128613507072?codeId=v67QmRY5a38YL&card=650713118077427712&origin=videolinkgenerator"><img src="https://i.postimg.cc/Gp93s6k7/Screenshot-2024-05-19-124224.png" alt='image' width='800'/></a> </div>
-<div align="center"> <a href="https://gemoo.com/tools/upload-video/share/650713128613507072?codeId=v67QmRY5a38YL&card=650713118077427712&origin=videolinkgenerator"><img src="https://i.postimg.cc/5tG45pgx/Screenshot-2024-05-19-124306.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://emosense-vaibhavi.vercel.app/"><img src="https://i.postimg.cc/8P8Fgkh1/Screenshot-2024-05-19-123909.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://emosense-vaibhavi.vercel.app/"><img src="https://i.postimg.cc/YCrCtvjw/Screenshot-2024-05-19-124046.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://emosense-vaibhavi.vercel.app/"><img src="https://i.postimg.cc/Gp93s6k7/Screenshot-2024-05-19-124224.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="https://emosense-vaibhavi.vercel.app/"><img src="https://i.postimg.cc/5tG45pgx/Screenshot-2024-05-19-124306.png" alt='image' width='800'/></a> </div>
 
 
 ### :space_invader: Tech Stack
