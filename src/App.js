@@ -8,7 +8,6 @@ function App() {
   const [sentiment, setSentiment] = useState(null);
   const [connected, setConnected] = useState(false);
   const [buttonClicked, setButtonClicked] = useState(false);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetchData();
@@ -16,12 +15,11 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('https://emosense-backend.vercel.app/data');
+      const response = await axios.get('https://emosense-backend.vercel.app/data'); // Corrected URL
       setData(response.data);
       setConnected(true);
     } catch (error) {
       console.error('Error fetching data:', error);
-      setError('Error fetching data. Please check your connection.');
     }
   };
 
@@ -35,19 +33,16 @@ function App() {
 
     if (!inputText.trim()) {
       setSentiment(null);
-      setError('Please enter text to analyze sentiment.');
       return;
     }
 
     try {
-      const response = await axios.post('https://emosense-backend.vercel.app/analyze', { text: inputText });
+      const response = await axios.post('https://emosense-backend.vercel.app/analyze', { text: inputText }); // Corrected URL
       setSentiment(response.data.sentiment);
       setConnected(true);
-      setError(null);
     } catch (error) {
       console.error('Error analyzing sentiment:', error);
       setConnected(false);
-      setError('Error analyzing sentiment. Please check your connection.');
     }
   };
 
@@ -83,11 +78,6 @@ function App() {
           <p className="output-text">
             {sentiment > 0 ? 'Positive Emotions! Stay happy😊' : sentiment < 0 ? 'Negative Emotions! Try to stay positive😔' : 'Neutral Emotions! Keep a balance🙂'}
           </p>
-        </div>
-      )}
-      {error && (
-        <div className="output-container">
-          <p className="output-text error">{error}</p>
         </div>
       )}
     </div>
