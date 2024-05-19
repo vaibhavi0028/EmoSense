@@ -2,7 +2,7 @@
   
 
 <h1>EmoSense</h1>
-<p>EmoSense is a web-based application designed to analyze emotions from user-provided text inputs. It leverages sentiment analysis techniques to assess the overall sentiment and emotional tone of the input text. Users can enter their thoughts, feelings, or written content into a text area, and upon submission, the application processes the text and provides feedback on whether the sentiment is positive, negative, or neutral. EmoSense aims to foster emotional awareness and self-reflection by providing users with insightful information about their expressed emotions, potentially aiding in personal growth and emotional well-being.</p>
+<p>EmoSense is a Flask-based application built using LLM application, to analyze emotions from user-provided text inputs. It leverages sentiment analysis techniques to assess the overall sentiment and emotional tone of the input text. Users can enter their thoughts, feelings, or written content into a text area, and upon submission, the application processes the text and provides feedback on whether the sentiment is positive, negative, or neutral. EmoSense aims to foster emotional awareness and self-reflection by providing users with insightful information about their expressed emotions, potentially aiding in personal growth and emotional well-being.</p>
 
 <h4> <a href=https://emosense-vaibhavi.vercel.app/>View Website</a> <span> · </span> <a href="https://github.com/vaibhavi0028/EmoSense/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/vaibhavi0028/EmoSense/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/vaibhavi0028/EmoSense/issues"> Request Feature </a> </h4>
 <br><br>
