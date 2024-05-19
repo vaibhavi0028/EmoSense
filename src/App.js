@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './style.css'; 
+import './style.css';
 
 function App() {
   const [data, setData] = useState([]);
@@ -15,7 +15,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('https://emosense-backend.vercel.app/data'); 
+      const response = await axios.get('https://emosense-backend.vercel.app/data');
       setData(response.data);
       setConnected(true);
     } catch (error) {
@@ -37,13 +37,28 @@ function App() {
     }
 
     try {
-      const response = await axios.post('https://emosense-backend.vercel.app/analyze', { text: inputText }); 
+      const response = await axios.post('https://emosense-backend.vercel.app/analyze', { text: inputText });
       setSentiment(response.data.sentiment);
       setConnected(true);
     } catch (error) {
       console.error('Error analyzing sentiment:', error);
       setConnected(false);
+      analyzeSentimentLocally(inputText); // Call local sentiment analysis if backend is not connected
     }
+  };
+
+  const analyzeSentimentLocally = (text) => {
+    const customSentiments = { enthralled: 0.85, sad: -0.9, happy: 0.9, angry: -0.8, bored: -0.7 }; // Custom sentiments
+    const blob = new window.TextBlob(text.toLowerCase());
+    const words = blob.words;
+    let sentimentScore = 0;
+    for (const word of words) {
+      if (word in customSentiments) {
+        sentimentScore += customSentiments[word];
+      }
+    }
+    sentimentScore = Math.min(1, Math.max(-1, sentimentScore));
+    setSentiment(sentimentScore);
   };
 
   return (
