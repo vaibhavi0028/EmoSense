@@ -27,6 +27,7 @@
 <li><a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a></li>
 </ul> 
 <summary>Server</summary> <ul>
+<li><a href="">llmware</a></li>
 <li><a href="https://react.dev/">React</a></li>
 <li><a href="https://axios-http.com/docs/intro">Axios </a></li>
 <li><a href="">CSS</a></li>
@@ -46,6 +47,10 @@
 
 ### :gear: Installation
 
+llmware
+```bash
+npm install llmware
+```
 React
 ```bash
 npm install react
