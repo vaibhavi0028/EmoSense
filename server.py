@@ -11,7 +11,7 @@ def add_cors_headers(response):
 
 try:
     df = pd.read_csv('https://query.data.world/s/jfdmcynpnwlycfcssgghoexwtc2rtj?dws=00000')
-    connection_status = "Connection successfull"
+    connection_status = "Connection successful"
 except Exception as e:
     print("Error:", e)
     df = pd.DataFrame()
